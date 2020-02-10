@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS460 PA1</title>
+</head>
+
+<body>
+	<h1 align="center"> CS460 PA: Database Enabled Web Application </h1>
+	<h3 align="center"> Designed only for testing functionality </h3>
+	<br>
+	<br>
+
+	<p> <b>Get Businesses</b> <br>
+	<form action = "actions/GetBusinessNewSql.php" method = "POST">
+		Categories:<br>
+		<input type="text" name="entered_category"> <input type="submit" value="Submit">
+	</form>
+	</p>
+
+	<p> <b>Get Reviews by Rating </b> <br>
+	<form action="actions/GetBusinessReviewNewSql.php" method = "POST">
+		Minimum Rating:<br>
+		<input type="text" name="entered_rating"> <input type="submit" value="Submit">
+	</form>
+	</p>
+
+	<p> <b>Add/Insert User </b> <br>
+	<form action="actions/addUser.php" method = "post">
+		User Id:<br>
+		<input type="text" name="entered_userid"> <br>
+		User Name:<br>
+		<input type="text" name="entered_username"> 
+		<input type="submit" value="Submit">
+	</form>
+	</p>
+
+</body>
+
+</html>
